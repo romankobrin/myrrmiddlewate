@@ -10,6 +10,7 @@ const PluginName = "myrrmiddlewate"
 type Plugin struct{}
 
 func (p *Plugin) Init() error {
+	fmt.Println("init test\n")
 	return nil
 }
 
