@@ -9,7 +9,6 @@ const PluginName = "myrrmiddlewate"
 
 type Plugin struct{}
 
-// to declare plugin
 func (p *Plugin) Init() error {
 	return nil
 }
